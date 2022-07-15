@@ -4,6 +4,7 @@ const links = [
 	'https://t.maze.co/102100527?guerilla=true',
 	'https://t.maze.co/102059674?guerilla=true',
 ];
+
 let linkIndex = 1;
 const routes = new Router();
 routes.get('/', (req, res) => {
